@@ -1,0 +1,28 @@
+{
+    "library_info": {
+        "total_chiplets": 600,
+        "types": [
+            "cpu",
+            "gpu",
+            "memory",
+            "io",
+            "noc"
+        ],
+        "generation_date": "2025-09-08",
+        "description": "Five-type chiplet library for matching algorithm research"
+    },
+    "type_counts": {
+        "cpu": 100,
+        "gpu": 80,
+        "memory": 150,
+        "io": 120,
+        "noc": 150
+    },
+    "file_structure": {
+        "cpu": "cpu/cpu_chiplets.json",
+        "gpu": "gpu/gpu_chiplets.json",
+        "memory": "memory/memory_chiplets.json",
+        "io": "io/io_chiplets.json",
+        "noc": "noc/noc_chiplets.json"
+    }
+}

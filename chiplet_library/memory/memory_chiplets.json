@@ -1,0 +1,5162 @@
+{
+    "memory_chiplet_001": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.74,
+                "y": 0.25
+            },
+            {
+                "x": 7.04,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 0.56
+            },
+            {
+                "x": 7.75,
+                "y": 6.34
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.5,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 570,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_002": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.79
+            },
+            {
+                "x": 4.05,
+                "y": 5.75,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 5.75,
+                "y": 5.48,
+                "fraction_bump_area": 0.28
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.1,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 814,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_003": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.96,
+                "y": 5.75,
+                "fraction_bump_area": 0.14
+            },
+            {
+                "x": 11.11,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 2.79,
+                "fraction_bump_area": 0.18
+            },
+            {
+                "x": 0.25,
+                "y": 2.0
+            }
+        ],
+        "technology": "7nm",
+        "power": 2.8,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 878,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_004": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.26,
+                "fraction_bump_area": 0.14
+            },
+            {
+                "x": 11.75,
+                "y": 0.8
+            },
+            {
+                "x": 8.87,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 11.7,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 549,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_005": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.91,
+                "y": 3.75,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 2.54,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 0.9
+            },
+            {
+                "x": 3.75,
+                "y": 1.18,
+                "fraction_bump_area": 0.35
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.3,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1094,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_006": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.15,
+                "y": 0.25
+            },
+            {
+                "x": 8.71,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.54,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 11.75,
+                "y": 2.94
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.3,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 667,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_007": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.85,
+                "y": 5.75
+            },
+            {
+                "x": 9.63,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 3.65
+            },
+            {
+                "x": 0.25,
+                "y": 2.54,
+                "fraction_bump_area": 0.39
+            }
+        ],
+        "technology": "7nm",
+        "power": 6.9,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 609,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_008": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.95,
+                "y": 4.75,
+                "fraction_bump_area": 0.32
+            },
+            {
+                "x": 0.25,
+                "y": 0.55,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 9.75,
+                "y": 4.4
+            },
+            {
+                "x": 2.06,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 9.2,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 586,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_009": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.23,
+                "y": 7.75,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 0.25,
+                "y": 0.58
+            },
+            {
+                "x": 6.9,
+                "y": 0.25,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 7.75,
+                "y": 3.16,
+                "fraction_bump_area": 0.14
+            }
+        ],
+        "technology": "14nm",
+        "power": 16.9,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 408,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_010": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.04,
+                "y": 7.75,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 7.75,
+                "y": 7.13,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 0.25,
+                "y": 3.9,
+                "fraction_bump_area": 0.14
+            }
+        ],
+        "technology": "14nm",
+        "power": 6.1,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 628,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_011": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.08
+            },
+            {
+                "x": 3.75,
+                "y": 0.8
+            },
+            {
+                "x": 0.68,
+                "y": 3.75
+            },
+            {
+                "x": 2.2,
+                "y": 0.25,
+                "fraction_bump_area": 0.26
+            }
+        ],
+        "technology": "7nm",
+        "power": 10.3,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1722,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_012": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.77,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 6.27,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 11.2,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 783,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_013": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.73
+            },
+            {
+                "x": 4.25,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.1,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 1188,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_014": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.32,
+                "y": 0.25,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 3.1,
+                "y": 4.75,
+                "fraction_bump_area": 0.31
+            }
+        ],
+        "technology": "14nm",
+        "power": 3.1,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 1131,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_015": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.09,
+                "fraction_bump_area": 0.3
+            },
+            {
+                "x": 6.5,
+                "y": 0.25
+            },
+            {
+                "x": 0.99,
+                "y": 4.75,
+                "fraction_bump_area": 0.16
+            }
+        ],
+        "technology": "10nm",
+        "power": 14.8,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 508,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_016": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.35
+            },
+            {
+                "x": 7.75,
+                "y": 5.26,
+                "fraction_bump_area": 0.28
+            },
+            {
+                "x": 2.79,
+                "y": 0.25
+            },
+            {
+                "x": 1.34,
+                "y": 7.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 11.1,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 783,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_017": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 4.64
+            },
+            {
+                "x": 0.25,
+                "y": 2.04
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.0,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 926,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_018": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.92,
+                "y": 0.25,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 2.08,
+                "y": 4.75,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 4.75,
+                "y": 2.57,
+                "fraction_bump_area": 0.29
+            },
+            {
+                "x": 0.25,
+                "y": 1.44
+            }
+        ],
+        "technology": "7nm",
+        "power": 11.8,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 722,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_019": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.15,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 0.7
+            },
+            {
+                "x": 3.82,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 2.3,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 612,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_020": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.45,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 3.26
+            },
+            {
+                "x": 0.25,
+                "y": 1.02
+            }
+        ],
+        "technology": "10nm",
+        "power": 14.3,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1804,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_021": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.72,
+                "y": 0.25
+            },
+            {
+                "x": 4.04,
+                "y": 5.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 9.2,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 866,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_022": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.65,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 3.91
+            },
+            {
+                "x": 0.52,
+                "y": 5.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.8,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 723,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_023": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.35,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.97
+            },
+            {
+                "x": 6.87,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 1.53
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.6,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 431,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_024": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.93,
+                "y": 3.75,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 0.82,
+                "y": 0.25
+            },
+            {
+                "x": 3.75,
+                "y": 3.12
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.7,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.064,
+            "bandwidth_gbps": 1160,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_025": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.74
+            },
+            {
+                "x": 2.16,
+                "y": 4.75,
+                "fraction_bump_area": 0.2
+            }
+        ],
+        "technology": "14nm",
+        "power": 2.8,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 1027,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_026": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.51,
+                "y": 5.75
+            },
+            {
+                "x": 5.45,
+                "y": 0.25,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 5.75,
+                "y": 1.66
+            }
+        ],
+        "technology": "14nm",
+        "power": 16.0,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 664,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_027": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.96,
+                "y": 0.25,
+                "fraction_bump_area": 0.26
+            },
+            {
+                "x": 7.43,
+                "y": 7.75,
+                "fraction_bump_area": 0.1
+            },
+            {
+                "x": 0.25,
+                "y": 6.09
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.0,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 675,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_028": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.96,
+                "y": 3.75,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 4.05,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.0
+            },
+            {
+                "x": 0.25,
+                "y": 2.55
+            }
+        ],
+        "technology": "14nm",
+        "power": 4.5,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1677,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_029": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.08,
+                "y": 0.25
+            },
+            {
+                "x": 5.24,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.69
+            },
+            {
+                "x": 9.75,
+                "y": 3.61,
+                "fraction_bump_area": 0.26
+            }
+        ],
+        "technology": "14nm",
+        "power": 5.1,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 649,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_030": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 6.19
+            },
+            {
+                "x": 4.32,
+                "y": 0.25
+            },
+            {
+                "x": 5.14,
+                "y": 7.75,
+                "fraction_bump_area": 0.32
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.6,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 569,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_031": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.82,
+                "fraction_bump_area": 0.24
+            },
+            {
+                "x": 4.81,
+                "y": 0.25,
+                "fraction_bump_area": 0.32
+            },
+            {
+                "x": 7.75,
+                "y": 2.19
+            },
+            {
+                "x": 7.33,
+                "y": 7.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 8.1,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 582,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_032": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.36,
+                "y": 4.75,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 2.59,
+                "y": 0.25,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 9.75,
+                "y": 2.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.38
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.6,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 722,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_033": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.39,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.78
+            },
+            {
+                "x": 7.75,
+                "y": 0.72
+            },
+            {
+                "x": 3.93,
+                "y": 7.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 13.4,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 608,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_034": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.56
+            },
+            {
+                "x": 0.65,
+                "y": 0.25
+            },
+            {
+                "x": 6.49,
+                "y": 7.75
+            },
+            {
+                "x": 7.75,
+                "y": 6.23,
+                "fraction_bump_area": 0.39
+            }
+        ],
+        "technology": "7nm",
+        "power": 3.1,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 499,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_035": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 2.63
+            },
+            {
+                "x": 6.45,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 5.93
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.6,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 632,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_036": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.05,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 5.75,
+                "y": 2.86
+            },
+            {
+                "x": 5.34,
+                "y": 0.25,
+                "fraction_bump_area": 0.18
+            },
+            {
+                "x": 0.61,
+                "y": 3.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 4.9,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1020,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_037": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 4.74
+            },
+            {
+                "x": 0.25,
+                "y": 1.18
+            },
+            {
+                "x": 4.7,
+                "y": 5.75
+            },
+            {
+                "x": 5.25,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 19.0,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 937,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_038": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.39
+            },
+            {
+                "x": 9.75,
+                "y": 0.94
+            },
+            {
+                "x": 2.0,
+                "y": 0.25
+            },
+            {
+                "x": 5.59,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 18.2,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 710,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_039": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.77
+            },
+            {
+                "x": 3.75,
+                "y": 3.38
+            },
+            {
+                "x": 1.23,
+                "y": 0.25
+            },
+            {
+                "x": 3.36,
+                "y": 3.75,
+                "fraction_bump_area": 0.14
+            }
+        ],
+        "technology": "14nm",
+        "power": 8.4,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1080,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_040": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.3,
+                "y": 0.25,
+                "fraction_bump_area": 0.21
+            },
+            {
+                "x": 11.75,
+                "y": 4.8
+            },
+            {
+                "x": 9.06,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.12
+            }
+        ],
+        "technology": "14nm",
+        "power": 3.8,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 564,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_041": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.11
+            },
+            {
+                "x": 11.75,
+                "y": 4.79,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 4.59,
+                "y": 0.25
+            },
+            {
+                "x": 7.44,
+                "y": 5.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 19.8,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 510,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_042": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.54,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 5.51
+            },
+            {
+                "x": 1.25,
+                "y": 0.25,
+                "fraction_bump_area": 0.26
+            },
+            {
+                "x": 7.75,
+                "y": 5.33
+            }
+        ],
+        "technology": "7nm",
+        "power": 12.1,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 790,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_043": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.91,
+                "y": 0.25,
+                "fraction_bump_area": 0.27
+            },
+            {
+                "x": 11.75,
+                "y": 5.01
+            },
+            {
+                "x": 11.34,
+                "y": 5.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 7.1,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 623,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_044": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.69
+            },
+            {
+                "x": 5.75,
+                "y": 3.06
+            }
+        ],
+        "technology": "14nm",
+        "power": 11.6,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1074,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_045": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.76
+            },
+            {
+                "x": 2.67,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.19
+            }
+        ],
+        "technology": "14nm",
+        "power": 6.3,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.064,
+            "bandwidth_gbps": 1782,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_046": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.0
+            },
+            {
+                "x": 2.77,
+                "y": 4.75
+            },
+            {
+                "x": 3.79,
+                "y": 0.25,
+                "fraction_bump_area": 0.17
+            }
+        ],
+        "technology": "10nm",
+        "power": 3.9,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 835,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_047": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.55,
+                "y": 3.75,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 2.19,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 1.23,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 3.75,
+                "y": 3.49,
+                "fraction_bump_area": 0.32
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.7,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1571,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_048": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.15,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.41
+            },
+            {
+                "x": 2.32,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 2.8,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 400,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_049": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 2.2
+            },
+            {
+                "x": 4.3,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 6.0,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 1029,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_050": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.01,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.0,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 1.27,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 2.74,
+                "fraction_bump_area": 0.28
+            }
+        ],
+        "technology": "14nm",
+        "power": 13.0,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 536,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_051": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 2.38
+            },
+            {
+                "x": 0.25,
+                "y": 2.19
+            },
+            {
+                "x": 1.54,
+                "y": 4.75
+            },
+            {
+                "x": 2.34,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 17.5,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 404,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_052": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.88,
+                "y": 0.25,
+                "fraction_bump_area": 0.39
+            },
+            {
+                "x": 9.75,
+                "y": 3.72
+            },
+            {
+                "x": 4.16,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.2
+            }
+        ],
+        "technology": "10nm",
+        "power": 15.5,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 565,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_053": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 2.94
+            },
+            {
+                "x": 7.77,
+                "y": 5.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 5.6,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 817,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_054": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.83
+            },
+            {
+                "x": 11.75,
+                "y": 4.83
+            },
+            {
+                "x": 2.61,
+                "y": 5.75,
+                "fraction_bump_area": 0.12
+            }
+        ],
+        "technology": "14nm",
+        "power": 6.1,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 538,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_055": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.49,
+                "y": 3.75,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 0.25,
+                "y": 2.02
+            },
+            {
+                "x": 1.55,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 0.8
+            }
+        ],
+        "technology": "14nm",
+        "power": 14.3,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1758,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_056": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.94
+            },
+            {
+                "x": 0.74,
+                "y": 0.25
+            },
+            {
+                "x": 4.75,
+                "y": 3.48
+            }
+        ],
+        "technology": "14nm",
+        "power": 7.3,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 822,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_057": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 2.6
+            },
+            {
+                "x": 4.2,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.12
+            },
+            {
+                "x": 2.65,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 12.2,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 1036,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_058": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.5,
+                "y": 7.75
+            },
+            {
+                "x": 7.75,
+                "y": 5.18
+            },
+            {
+                "x": 4.85,
+                "y": 0.25,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 0.25,
+                "y": 1.01,
+                "fraction_bump_area": 0.28
+            }
+        ],
+        "technology": "7nm",
+        "power": 16.7,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 806,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_059": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.27
+            },
+            {
+                "x": 5.99,
+                "y": 0.25,
+                "fraction_bump_area": 0.32
+            },
+            {
+                "x": 9.75,
+                "y": 4.31
+            },
+            {
+                "x": 2.42,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 17.5,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 556,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_060": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.01,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.28,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 0.92,
+                "y": 3.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 17.0,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1644,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_061": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.26
+            },
+            {
+                "x": 5.75,
+                "y": 1.73
+            }
+        ],
+        "technology": "10nm",
+        "power": 9.4,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1226,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_062": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.63,
+                "y": 0.25
+            },
+            {
+                "x": 4.18,
+                "y": 4.75,
+                "fraction_bump_area": 0.13
+            }
+        ],
+        "technology": "7nm",
+        "power": 16.1,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 675,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_063": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.05,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 7.75,
+                "y": 2.13,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 1.86,
+                "y": 0.25
+            },
+            {
+                "x": 3.89,
+                "y": 7.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 5.4,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 460,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_064": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.36,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 0.66,
+                "y": 0.25
+            },
+            {
+                "x": 3.75,
+                "y": 2.79
+            },
+            {
+                "x": 2.63,
+                "y": 3.75,
+                "fraction_bump_area": 0.39
+            }
+        ],
+        "technology": "14nm",
+        "power": 12.8,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.064,
+            "bandwidth_gbps": 1652,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_065": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.61
+            },
+            {
+                "x": 4.9,
+                "y": 4.75
+            },
+            {
+                "x": 7.05,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 2.1,
+                "fraction_bump_area": 0.28
+            }
+        ],
+        "technology": "7nm",
+        "power": 13.9,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 683,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_066": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 8.5,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 3.33
+            }
+        ],
+        "technology": "14nm",
+        "power": 13.3,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 684,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_067": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.68,
+                "y": 0.25
+            },
+            {
+                "x": 9.1,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.31
+            },
+            {
+                "x": 9.75,
+                "y": 3.3
+            }
+        ],
+        "technology": "14nm",
+        "power": 18.0,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 618,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_068": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 3.08
+            },
+            {
+                "x": 6.0,
+                "y": 4.75,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 0.25,
+                "y": 3.67,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 2.17,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 11.0,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 832,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_069": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.07,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 11.75,
+                "y": 3.47
+            }
+        ],
+        "technology": "14nm",
+        "power": 14.6,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 462,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_070": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.6,
+                "y": 3.75
+            },
+            {
+                "x": 3.75,
+                "y": 0.55
+            },
+            {
+                "x": 0.25,
+                "y": 2.02
+            },
+            {
+                "x": 3.39,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 2.1,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.256,
+            "bandwidth_gbps": 1585,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_071": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 4.27,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 6.89,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.28,
+                "fraction_bump_area": 0.11
+            }
+        ],
+        "technology": "14nm",
+        "power": 15.4,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 887,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_072": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.19,
+                "y": 0.25,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 0.25,
+                "y": 7.24
+            },
+            {
+                "x": 0.63,
+                "y": 7.75,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 7.75,
+                "y": 1.36,
+                "fraction_bump_area": 0.37
+            }
+        ],
+        "technology": "14nm",
+        "power": 5.0,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 434,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_073": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.06
+            },
+            {
+                "x": 1.93,
+                "y": 3.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 8.1,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1543,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_074": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 3.06
+            },
+            {
+                "x": 2.72,
+                "y": 3.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.19
+            },
+            {
+                "x": 5.3,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 4.2,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.128,
+            "bandwidth_gbps": 1283,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_075": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 2.95
+            },
+            {
+                "x": 1.65,
+                "y": 0.25
+            },
+            {
+                "x": 4.26,
+                "y": 5.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 18.5,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 751,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_076": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.13,
+                "y": 0.25,
+                "fraction_bump_area": 0.27
+            },
+            {
+                "x": 0.25,
+                "y": 0.58
+            },
+            {
+                "x": 6.84,
+                "y": 5.75
+            },
+            {
+                "x": 11.75,
+                "y": 4.59
+            }
+        ],
+        "technology": "10nm",
+        "power": 3.7,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 575,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_077": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.5,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.18
+            },
+            {
+                "x": 5.75,
+                "y": 3.22
+            }
+        ],
+        "technology": "14nm",
+        "power": 5.7,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 1000,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_078": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 5.75,
+                "fraction_bump_area": 0.32
+            },
+            {
+                "x": 11.75,
+                "y": 4.5
+            },
+            {
+                "x": 0.25,
+                "y": 4.62
+            },
+            {
+                "x": 2.47,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 3.6,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 513,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_079": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.75,
+                "y": 2.11,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 0.62,
+                "y": 0.25,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 0.98,
+                "y": 3.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.68,
+                "fraction_bump_area": 0.17
+            }
+        ],
+        "technology": "7nm",
+        "power": 19.4,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.128,
+            "bandwidth_gbps": 1480,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_080": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 6.2,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 2.32,
+                "fraction_bump_area": 0.29
+            },
+            {
+                "x": 0.25,
+                "y": 2.78
+            }
+        ],
+        "technology": "10nm",
+        "power": 15.0,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 569,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_081": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.1
+            },
+            {
+                "x": 2.58,
+                "y": 5.75
+            },
+            {
+                "x": 1.3,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 2.07
+            }
+        ],
+        "technology": "10nm",
+        "power": 13.1,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 489,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_082": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 2.84
+            },
+            {
+                "x": 3.41,
+                "y": 0.25
+            },
+            {
+                "x": 5.05,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.31,
+                "fraction_bump_area": 0.37
+            }
+        ],
+        "technology": "7nm",
+        "power": 16.5,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 758,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_083": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.48,
+                "y": 4.75
+            },
+            {
+                "x": 9.75,
+                "y": 0.94
+            },
+            {
+                "x": 7.26,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 1.06
+            }
+        ],
+        "technology": "14nm",
+        "power": 5.2,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 769,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_084": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 4.12,
+                "fraction_bump_area": 0.21
+            },
+            {
+                "x": 8.74,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.66
+            },
+            {
+                "x": 2.69,
+                "y": 5.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 14.3,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 679,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_085": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 3.33
+            },
+            {
+                "x": 0.83,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.88
+            },
+            {
+                "x": 7.88,
+                "y": 0.25,
+                "fraction_bump_area": 0.36
+            }
+        ],
+        "technology": "7nm",
+        "power": 18.4,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 538,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_086": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.79,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 5.4,
+                "fraction_bump_area": 0.11
+            },
+            {
+                "x": 7.8,
+                "y": 5.75,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 0.25,
+                "y": 5.16
+            }
+        ],
+        "technology": "10nm",
+        "power": 6.5,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 494,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_087": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 6.61,
+                "y": 0.25,
+                "fraction_bump_area": 0.14
+            },
+            {
+                "x": 0.25,
+                "y": 4.27
+            },
+            {
+                "x": 0.97,
+                "y": 4.75,
+                "fraction_bump_area": 0.29
+            },
+            {
+                "x": 9.75,
+                "y": 3.55
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.0,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 466,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_088": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.64
+            },
+            {
+                "x": 0.79,
+                "y": 3.75
+            },
+            {
+                "x": 1.82,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 3.6,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.064,
+            "bandwidth_gbps": 1138,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_089": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.05,
+                "y": 7.75
+            },
+            {
+                "x": 7.75,
+                "y": 7.29,
+                "fraction_bump_area": 0.11
+            },
+            {
+                "x": 5.04,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.4,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 488,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_090": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.6,
+                "fraction_bump_area": 0.11
+            },
+            {
+                "x": 7.22,
+                "y": 0.25
+            },
+            {
+                "x": 7.12,
+                "y": 5.75
+            },
+            {
+                "x": 11.75,
+                "y": 3.46
+            }
+        ],
+        "technology": "10nm",
+        "power": 11.7,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 432,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_091": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.8,
+                "y": 5.75
+            },
+            {
+                "x": 11.75,
+                "y": 4.6
+            },
+            {
+                "x": 2.68,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 14.3,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 412,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_092": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.11,
+                "y": 4.75
+            },
+            {
+                "x": 8.09,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.73,
+                "fraction_bump_area": 0.22
+            }
+        ],
+        "technology": "7nm",
+        "power": 2.1,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 527,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_093": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.24
+            },
+            {
+                "x": 0.63,
+                "y": 5.75
+            },
+            {
+                "x": 11.75,
+                "y": 1.42
+            },
+            {
+                "x": 1.44,
+                "y": 0.25,
+                "fraction_bump_area": 0.15
+            }
+        ],
+        "technology": "14nm",
+        "power": 4.9,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 469,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_094": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.54,
+                "y": 0.25
+            },
+            {
+                "x": 4.0,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.41
+            },
+            {
+                "x": 5.75,
+                "y": 2.63,
+                "fraction_bump_area": 0.13
+            }
+        ],
+        "technology": "14nm",
+        "power": 18.0,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 807,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_095": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.07,
+                "y": 0.25,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 4.75,
+                "y": 3.89,
+                "fraction_bump_area": 0.38
+            }
+        ],
+        "technology": "7nm",
+        "power": 3.3,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 1200,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_096": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.05,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 1.13
+            },
+            {
+                "x": 8.77,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 0.62
+            }
+        ],
+        "technology": "7nm",
+        "power": 16.6,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 774,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_097": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 2.62
+            },
+            {
+                "x": 0.25,
+                "y": 1.08
+            }
+        ],
+        "technology": "7nm",
+        "power": 17.8,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 993,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_098": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.42,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 5.75,
+                "y": 0.68
+            },
+            {
+                "x": 4.9,
+                "y": 0.25
+            },
+            {
+                "x": 2.97,
+                "y": 3.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 5.5,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1418,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_099": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 3.47
+            },
+            {
+                "x": 10.48,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.05,
+                "fraction_bump_area": 0.28
+            }
+        ],
+        "technology": "14nm",
+        "power": 7.3,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 485,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_100": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.07,
+                "y": 7.75,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 7.75,
+                "y": 4.09,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 0.25,
+                "y": 7.23
+            }
+        ],
+        "technology": "10nm",
+        "power": 3.6,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 483,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_101": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.43,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.34
+            },
+            {
+                "x": 5.35,
+                "y": 0.25,
+                "fraction_bump_area": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 4.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 16.7,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 128,
+            "bandwidth_gbps": 692,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_102": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.55,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 3.76,
+                "fraction_bump_area": 0.27
+            },
+            {
+                "x": 5.91,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.03,
+                "fraction_bump_area": 0.2
+            }
+        ],
+        "technology": "7nm",
+        "power": 2.3,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 453,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_103": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.64,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.63
+            },
+            {
+                "x": 1.21,
+                "y": 4.75,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 4.75,
+                "y": 0.98
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.2,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 1024,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_104": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 3.82
+            },
+            {
+                "x": 6.77,
+                "y": 0.25
+            },
+            {
+                "x": 8.42,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.98
+            }
+        ],
+        "technology": "10nm",
+        "power": 11.5,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 447,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_105": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.12,
+                "y": 0.25
+            },
+            {
+                "x": 3.86,
+                "y": 5.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 10.8,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 755,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_106": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 0.5
+            },
+            {
+                "x": 0.25,
+                "y": 2.47
+            },
+            {
+                "x": 10.63,
+                "y": 0.25
+            },
+            {
+                "x": 6.91,
+                "y": 5.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 19.8,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 808,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_107": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.65,
+                "fraction_bump_area": 0.11
+            },
+            {
+                "x": 0.25,
+                "y": 1.43
+            }
+        ],
+        "technology": "7nm",
+        "power": 7.3,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 648,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_108": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.37,
+                "y": 4.75,
+                "fraction_bump_area": 0.36
+            },
+            {
+                "x": 4.75,
+                "y": 2.31
+            },
+            {
+                "x": 0.25,
+                "y": 1.74,
+                "fraction_bump_area": 0.27
+            }
+        ],
+        "technology": "7nm",
+        "power": 11.0,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 1103,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_109": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.33,
+                "y": 0.25,
+                "fraction_bump_area": 0.32
+            },
+            {
+                "x": 4.75,
+                "y": 4.26,
+                "fraction_bump_area": 0.12
+            }
+        ],
+        "technology": "14nm",
+        "power": 14.1,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 912,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_110": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 6.44,
+                "y": 5.75,
+                "fraction_bump_area": 0.11
+            },
+            {
+                "x": 0.25,
+                "y": 3.93
+            },
+            {
+                "x": 11.75,
+                "y": 1.84
+            }
+        ],
+        "technology": "10nm",
+        "power": 3.0,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 626,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_111": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.85,
+                "y": 5.75,
+                "fraction_bump_area": 0.18
+            },
+            {
+                "x": 1.0,
+                "y": 0.25,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 0.25,
+                "y": 2.24
+            },
+            {
+                "x": 11.75,
+                "y": 2.34
+            }
+        ],
+        "technology": "10nm",
+        "power": 2.1,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 602,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_112": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.51
+            },
+            {
+                "x": 1.62,
+                "y": 3.75
+            },
+            {
+                "x": 1.8,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 18.8,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.064,
+            "bandwidth_gbps": 1311,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_113": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 1.88
+            },
+            {
+                "x": 1.06,
+                "y": 5.75
+            },
+            {
+                "x": 5.01,
+                "y": 0.25,
+                "fraction_bump_area": 0.26
+            },
+            {
+                "x": 0.25,
+                "y": 4.85
+            }
+        ],
+        "technology": "10nm",
+        "power": 9.2,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 606,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_114": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 7.16,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.32
+            },
+            {
+                "x": 4.28,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 0.55
+            }
+        ],
+        "technology": "14nm",
+        "power": 7.9,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 748,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_115": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.98
+            },
+            {
+                "x": 7.75,
+                "y": 3.15
+            },
+            {
+                "x": 6.11,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.8,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 535,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_116": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 6.46,
+                "y": 0.25,
+                "fraction_bump_area": 0.39
+            },
+            {
+                "x": 9.75,
+                "y": 2.68,
+                "fraction_bump_area": 0.18
+            },
+            {
+                "x": 3.13,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.4,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 757,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_117": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.7
+            },
+            {
+                "x": 2.21,
+                "y": 5.75,
+                "fraction_bump_area": 0.2
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.1,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 697,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_118": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 1.61
+            },
+            {
+                "x": 0.25,
+                "y": 5.49,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 3.8,
+                "y": 5.75
+            },
+            {
+                "x": 9.12,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 3.6,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 875,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_119": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 4.16
+            },
+            {
+                "x": 0.87,
+                "y": 0.25
+            },
+            {
+                "x": 1.83,
+                "y": 5.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 12.0,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 632,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_120": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 2.1
+            },
+            {
+                "x": 9.2,
+                "y": 4.75,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 0.25,
+                "y": 4.19
+            },
+            {
+                "x": 6.73,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 6.7,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 651,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_121": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.75,
+                "y": 4.75
+            },
+            {
+                "x": 9.75,
+                "y": 2.21,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 0.25,
+                "y": 3.02
+            },
+            {
+                "x": 3.41,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 9.5,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 413,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_122": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.5,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.93
+            },
+            {
+                "x": 7.13,
+                "y": 0.25
+            },
+            {
+                "x": 11.75,
+                "y": 5.09,
+                "fraction_bump_area": 0.31
+            }
+        ],
+        "technology": "7nm",
+        "power": 9.3,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 545,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_123": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.24,
+                "y": 5.75
+            },
+            {
+                "x": 5.75,
+                "y": 4.14
+            },
+            {
+                "x": 0.6,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.82,
+                "fraction_bump_area": 0.38
+            }
+        ],
+        "technology": "10nm",
+        "power": 12.9,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 768,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_124": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.3
+            },
+            {
+                "x": 3.95,
+                "y": 4.75,
+                "fraction_bump_area": 0.36
+            },
+            {
+                "x": 0.25,
+                "y": 3.99
+            },
+            {
+                "x": 3.02,
+                "y": 0.25,
+                "fraction_bump_area": 0.35
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.9,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 784,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_125": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 8.52,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 1.67
+            },
+            {
+                "x": 5.2,
+                "y": 4.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 6.1,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 553,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_126": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.17,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 7.08,
+                "y": 4.75
+            },
+            {
+                "x": 9.23,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 15.3,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 679,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_127": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.85
+            },
+            {
+                "x": 3.93,
+                "y": 7.75,
+                "fraction_bump_area": 0.4
+            },
+            {
+                "x": 7.75,
+                "y": 6.93
+            },
+            {
+                "x": 3.77,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 11.8,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 442,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_128": {
+        "dimensions": {
+            "x": 4,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.29,
+                "y": 0.25
+            },
+            {
+                "x": 3.75,
+                "y": 1.05,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 0.25,
+                "y": 3.06,
+                "fraction_bump_area": 0.38
+            }
+        ],
+        "technology": "14nm",
+        "power": 5.2,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 4,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.128,
+            "bandwidth_gbps": 1575,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_129": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 1.57,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 0.25,
+                "y": 3.3
+            },
+            {
+                "x": 1.28,
+                "y": 5.75
+            },
+            {
+                "x": 5.04,
+                "y": 0.25
+            }
+        ],
+        "technology": "14nm",
+        "power": 6.2,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 670,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_130": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.59,
+                "y": 5.75,
+                "fraction_bump_area": 0.24
+            },
+            {
+                "x": 0.25,
+                "y": 3.06,
+                "fraction_bump_area": 0.11
+            }
+        ],
+        "technology": "14nm",
+        "power": 6.4,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 1035,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_131": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.34,
+                "y": 3.75
+            },
+            {
+                "x": 1.32,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.03
+            }
+        ],
+        "technology": "14nm",
+        "power": 5.1,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.032,
+            "bandwidth_gbps": 1277,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_132": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 11.75,
+                "y": 3.81
+            },
+            {
+                "x": 7.6,
+                "y": 0.25
+            },
+            {
+                "x": 9.51,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 5.09,
+                "fraction_bump_area": 0.26
+            }
+        ],
+        "technology": "14nm",
+        "power": 15.6,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 780,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_133": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.78,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 3.21
+            },
+            {
+                "x": 0.25,
+                "y": 0.64
+            },
+            {
+                "x": 2.61,
+                "y": 4.75,
+                "fraction_bump_area": 0.16
+            }
+        ],
+        "technology": "7nm",
+        "power": 11.1,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 573,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_134": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.75,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 4.75,
+                "y": 1.36
+            }
+        ],
+        "technology": "7nm",
+        "power": 15.4,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 24,
+            "bandwidth_gbps": 905,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_135": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.24,
+                "y": 7.75
+            },
+            {
+                "x": 2.1,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 15.9,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 565,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_136": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.04,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 1.52,
+                "y": 4.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 3.6,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 987,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_137": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.06
+            },
+            {
+                "x": 2.21,
+                "y": 4.75
+            },
+            {
+                "x": 9.75,
+                "y": 3.98
+            },
+            {
+                "x": 6.66,
+                "y": 0.25,
+                "fraction_bump_area": 0.13
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.0,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 703,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_138": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 6.81,
+                "y": 0.25,
+                "fraction_bump_area": 0.27
+            },
+            {
+                "x": 0.25,
+                "y": 0.52
+            },
+            {
+                "x": 3.92,
+                "y": 4.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 17.8,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 537,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_139": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 1.26,
+                "y": 0.25
+            },
+            {
+                "x": 4.75,
+                "y": 4.44
+            },
+            {
+                "x": 0.25,
+                "y": 2.28
+            },
+            {
+                "x": 2.94,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 13.7,
+        "relay": false,
+        "internal_latency": 15,
+        "unit_count": 2,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 648,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_140": {
+        "dimensions": {
+            "x": 6,
+            "y": 4
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.83
+            },
+            {
+                "x": 5.75,
+                "y": 1.06
+            },
+            {
+                "x": 2.46,
+                "y": 3.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 6.0,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "Cache",
+            "capacity_gb": 0.128,
+            "bandwidth_gbps": 1784,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_141": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 4.16
+            },
+            {
+                "x": 0.25,
+                "y": 2.35
+            },
+            {
+                "x": 2.02,
+                "y": 4.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 2.7,
+        "relay": false,
+        "internal_latency": 12,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 1189,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_142": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.05,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 0.68
+            },
+            {
+                "x": 9.75,
+                "y": 4.02
+            },
+            {
+                "x": 8.14,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 19.1,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 414,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_143": {
+        "dimensions": {
+            "x": 10,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 0.9
+            },
+            {
+                "x": 0.25,
+                "y": 1.16
+            },
+            {
+                "x": 7.99,
+                "y": 0.25,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 8.88,
+                "y": 4.75
+            }
+        ],
+        "technology": "14nm",
+        "power": 18.4,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 7,
+        "specifications": {
+            "memory_type": "DDR5",
+            "capacity_gb": 64,
+            "bandwidth_gbps": 609,
+            "channels": 8
+        }
+    },
+    "memory_chiplet_144": {
+        "dimensions": {
+            "x": 8,
+            "y": 8
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.74
+            },
+            {
+                "x": 7.75,
+                "y": 0.98
+            },
+            {
+                "x": 4.45,
+                "y": 7.75
+            },
+            {
+                "x": 2.89,
+                "y": 0.25,
+                "fraction_bump_area": 0.24
+            }
+        ],
+        "technology": "10nm",
+        "power": 17.9,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 8,
+        "specifications": {
+            "memory_type": "LPDDR5",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 448,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_145": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.16,
+                "y": 0.25,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 4.21,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 0.77,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 0.25,
+                "y": 3.3,
+                "fraction_bump_area": 0.32
+            }
+        ],
+        "technology": "14nm",
+        "power": 17.3,
+        "relay": false,
+        "internal_latency": 11,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 1015,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_146": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.05,
+                "fraction_bump_area": 0.26
+            },
+            {
+                "x": 5.56,
+                "y": 0.25,
+                "fraction_bump_area": 0.33
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.8,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 1,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 477,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_147": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.01,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 0.57
+            }
+        ],
+        "technology": "7nm",
+        "power": 19.8,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 964,
+            "channels": 4
+        }
+    },
+    "memory_chiplet_148": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 3.09,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.49,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 2.63,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.07
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.3,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 5,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 8,
+            "bandwidth_gbps": 946,
+            "channels": 1
+        }
+    },
+    "memory_chiplet_149": {
+        "dimensions": {
+            "x": 12,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.43
+            },
+            {
+                "x": 11.75,
+                "y": 1.49
+            }
+        ],
+        "technology": "7nm",
+        "power": 12.4,
+        "relay": false,
+        "internal_latency": 13,
+        "unit_count": 3,
+        "specifications": {
+            "memory_type": "GDDR6",
+            "capacity_gb": 16,
+            "bandwidth_gbps": 877,
+            "channels": 2
+        }
+    },
+    "memory_chiplet_150": {
+        "dimensions": {
+            "x": 6,
+            "y": 6
+        },
+        "type": "memory",
+        "phys": [
+            {
+                "x": 2.05,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 4.54
+            },
+            {
+                "x": 0.25,
+                "y": 4.9,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 2.21,
+                "y": 5.75,
+                "fraction_bump_area": 0.38
+            }
+        ],
+        "technology": "10nm",
+        "power": 9.0,
+        "relay": false,
+        "internal_latency": 14,
+        "unit_count": 6,
+        "specifications": {
+            "memory_type": "HBM3",
+            "capacity_gb": 32,
+            "bandwidth_gbps": 638,
+            "channels": 8
+        }
+    }
+}

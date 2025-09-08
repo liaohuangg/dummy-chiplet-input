@@ -1,0 +1,5154 @@
+{
+    "io_chiplet_001": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 2.1
+            },
+            {
+                "x": 9.75,
+                "y": 6.8,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 0.51,
+                "y": 0.25
+            },
+            {
+                "x": 5.23,
+                "y": 0.25,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 5.51,
+                "y": 7.75
+            },
+            {
+                "x": 4.34,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.85
+            },
+            {
+                "x": 0.25,
+                "y": 7.49,
+                "fraction_bump_area": 0.39
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.3,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen6",
+            "protocols": [
+                "SATA",
+                "Ethernet",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_002": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.07,
+                "fraction_bump_area": 0.28
+            },
+            {
+                "x": 7.75,
+                "y": 3.38
+            },
+            {
+                "x": 0.87,
+                "y": 5.75
+            },
+            {
+                "x": 5.03,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 5.9,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_003": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.56,
+                "y": 0.25
+            },
+            {
+                "x": 2.11,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.59
+            },
+            {
+                "x": 7.75,
+                "y": 2.28
+            }
+        ],
+        "technology": "12nm",
+        "power": 14.7,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_004": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 3.59
+            },
+            {
+                "x": 0.25,
+                "y": 2.01
+            },
+            {
+                "x": 4.78,
+                "y": 0.25,
+                "fraction_bump_area": 0.25
+            },
+            {
+                "x": 7.93,
+                "y": 7.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 11.0,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "10G",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_005": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.89,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.74
+            },
+            {
+                "x": 9.75,
+                "y": 5.1
+            },
+            {
+                "x": 9.22,
+                "y": 7.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 19.8,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_006": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.86,
+                "y": 0.25
+            },
+            {
+                "x": 3.46,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.76
+            },
+            {
+                "x": 0.25,
+                "y": 2.13
+            },
+            {
+                "x": 2.14,
+                "y": 7.75
+            },
+            {
+                "x": 4.18,
+                "y": 7.75
+            },
+            {
+                "x": 5.75,
+                "y": 4.39
+            },
+            {
+                "x": 5.75,
+                "y": 2.97
+            }
+        ],
+        "technology": "10nm",
+        "power": 23.1,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "25G",
+            "protocols": [
+                "SATA",
+                "Ethernet",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_007": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.8,
+                "y": 7.75
+            },
+            {
+                "x": 9.75,
+                "y": 1.14
+            },
+            {
+                "x": 7.59,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 1.18
+            }
+        ],
+        "technology": "10nm",
+        "power": 9.0,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_008": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.21
+            },
+            {
+                "x": 0.68,
+                "y": 0.25,
+                "fraction_bump_area": 0.39
+            },
+            {
+                "x": 3.28,
+                "y": 4.75,
+                "fraction_bump_area": 0.27
+            }
+        ],
+        "technology": "12nm",
+        "power": 5.3,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_009": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.61,
+                "y": 0.25
+            },
+            {
+                "x": 0.51,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.01
+            },
+            {
+                "x": 9.75,
+                "y": 2.72
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.1,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_010": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.08,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.48
+            },
+            {
+                "x": 1.93,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 1.98
+            }
+        ],
+        "technology": "12nm",
+        "power": 4.0,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_011": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.46,
+                "y": 0.25,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 0.25,
+                "y": 7.1
+            },
+            {
+                "x": 5.75,
+                "y": 6.33
+            }
+        ],
+        "technology": "10nm",
+        "power": 11.8,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_012": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 8.14,
+                "y": 7.75,
+                "fraction_bump_area": 0.23
+            },
+            {
+                "x": 3.28,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 2.31
+            }
+        ],
+        "technology": "7nm",
+        "power": 24.2,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_013": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.0,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 4.75,
+                "y": 2.84,
+                "fraction_bump_area": 0.11
+            },
+            {
+                "x": 0.74,
+                "y": 0.25
+            },
+            {
+                "x": 4.15,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.01
+            },
+            {
+                "x": 0.25,
+                "y": 3.89
+            },
+            {
+                "x": 3.12,
+                "y": 4.75
+            },
+            {
+                "x": 0.75,
+                "y": 4.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 14.7,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 2,
+            "speed": "25G",
+            "protocols": [
+                "USB3",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_014": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 1.19
+            },
+            {
+                "x": 5.75,
+                "y": 5.56
+            },
+            {
+                "x": 0.87,
+                "y": 7.75
+            },
+            {
+                "x": 1.84,
+                "y": 7.75
+            },
+            {
+                "x": 5.29,
+                "y": 0.25,
+                "fraction_bump_area": 0.4
+            },
+            {
+                "x": 3.5,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 3.31
+            },
+            {
+                "x": 0.25,
+                "y": 6.25,
+                "fraction_bump_area": 0.4
+            }
+        ],
+        "technology": "10nm",
+        "power": 21.3,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_015": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.22,
+                "y": 0.25
+            },
+            {
+                "x": 2.15,
+                "y": 0.25
+            },
+            {
+                "x": 1.19,
+                "y": 7.75
+            },
+            {
+                "x": 8.55,
+                "y": 7.75,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 0.25,
+                "y": 4.44
+            },
+            {
+                "x": 0.25,
+                "y": 3.76,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 9.75,
+                "y": 2.48
+            },
+            {
+                "x": 9.75,
+                "y": 3.98,
+                "fraction_bump_area": 0.31
+            }
+        ],
+        "technology": "7nm",
+        "power": 16.5,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_016": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.76,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 4.94
+            },
+            {
+                "x": 3.62,
+                "y": 7.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 8.9,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_017": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.82,
+                "fraction_bump_area": 0.28
+            },
+            {
+                "x": 0.86,
+                "y": 7.75
+            },
+            {
+                "x": 2.42,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 1.93,
+                "fraction_bump_area": 0.24
+            }
+        ],
+        "technology": "12nm",
+        "power": 20.0,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_018": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.4
+            },
+            {
+                "x": 0.25,
+                "y": 1.88
+            },
+            {
+                "x": 4.75,
+                "y": 3.12
+            },
+            {
+                "x": 4.75,
+                "y": 1.54
+            },
+            {
+                "x": 2.68,
+                "y": 0.25
+            },
+            {
+                "x": 1.5,
+                "y": 0.25
+            },
+            {
+                "x": 1.6,
+                "y": 4.75
+            },
+            {
+                "x": 2.9,
+                "y": 4.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 21.2,
+        "relay": true,
+        "internal_latency": 9,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "SATA",
+                "PCIe",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_019": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 2.84,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 0.25,
+                "y": 3.99
+            },
+            {
+                "x": 0.62,
+                "y": 5.75,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 1.82,
+                "y": 0.25,
+                "fraction_bump_area": 0.1
+            }
+        ],
+        "technology": "12nm",
+        "power": 12.1,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen6",
+            "protocols": [
+                "Ethernet",
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_020": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.02,
+                "y": 7.75
+            },
+            {
+                "x": 3.49,
+                "y": 7.75
+            },
+            {
+                "x": 9.75,
+                "y": 1.95
+            },
+            {
+                "x": 9.75,
+                "y": 2.7
+            },
+            {
+                "x": 0.25,
+                "y": 6.38
+            },
+            {
+                "x": 0.25,
+                "y": 0.95,
+                "fraction_bump_area": 0.18
+            },
+            {
+                "x": 5.52,
+                "y": 0.25
+            },
+            {
+                "x": 7.95,
+                "y": 0.25,
+                "fraction_bump_area": 0.33
+            }
+        ],
+        "technology": "7nm",
+        "power": 10.5,
+        "relay": true,
+        "internal_latency": 6,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_021": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.41,
+                "y": 5.75,
+                "fraction_bump_area": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.43
+            },
+            {
+                "x": 2.0,
+                "y": 0.25
+            },
+            {
+                "x": 7.75,
+                "y": 4.5
+            }
+        ],
+        "technology": "12nm",
+        "power": 21.9,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_022": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.29
+            },
+            {
+                "x": 3.99,
+                "y": 7.75
+            },
+            {
+                "x": 5.75,
+                "y": 7.32,
+                "fraction_bump_area": 0.13
+            }
+        ],
+        "technology": "12nm",
+        "power": 22.3,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_023": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 2.29,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 1.22,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.61
+            },
+            {
+                "x": 5.28,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 25.0,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen5",
+            "protocols": [
+                "SATA",
+                "Ethernet",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_024": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.73
+            },
+            {
+                "x": 2.27,
+                "y": 0.25,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 4.17,
+                "y": 4.75,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 4.75,
+                "y": 0.52,
+                "fraction_bump_area": 0.23
+            }
+        ],
+        "technology": "7nm",
+        "power": 5.7,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA",
+                "USB3",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_025": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.38,
+                "y": 0.25,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 4.29,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 1.64
+            },
+            {
+                "x": 0.25,
+                "y": 1.24
+            },
+            {
+                "x": 4.75,
+                "y": 4.34
+            },
+            {
+                "x": 4.75,
+                "y": 1.78,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 1.33,
+                "y": 4.75
+            },
+            {
+                "x": 1.48,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.7,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 2,
+            "speed": "10G",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_026": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.83,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 0.84
+            },
+            {
+                "x": 7.75,
+                "y": 3.09
+            },
+            {
+                "x": 0.72,
+                "y": 5.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 6.5,
+        "relay": true,
+        "internal_latency": 6,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_027": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.31,
+                "y": 7.75
+            },
+            {
+                "x": 5.75,
+                "y": 2.48
+            },
+            {
+                "x": 4.94,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 1.11
+            }
+        ],
+        "technology": "12nm",
+        "power": 6.6,
+        "relay": true,
+        "internal_latency": 4,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_028": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.91,
+                "fraction_bump_area": 0.3
+            },
+            {
+                "x": 6.52,
+                "y": 7.75,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 6.74,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 7.09
+            }
+        ],
+        "technology": "7nm",
+        "power": 21.3,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 4,
+            "speed": "Gen4",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_029": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.18,
+                "y": 5.75
+            },
+            {
+                "x": 3.79,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.76
+            },
+            {
+                "x": 7.75,
+                "y": 3.11,
+                "fraction_bump_area": 0.13
+            }
+        ],
+        "technology": "10nm",
+        "power": 7.8,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_030": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.24,
+                "y": 0.25,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 2.54,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 1.69,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 0.25,
+                "y": 2.89
+            }
+        ],
+        "technology": "12nm",
+        "power": 11.7,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_031": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 0.57,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 0.25,
+                "y": 4.35
+            },
+            {
+                "x": 4.68,
+                "y": 0.25,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 2.87,
+                "y": 5.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 19.0,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_032": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 8.81,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.9
+            },
+            {
+                "x": 2.1,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 0.87
+            }
+        ],
+        "technology": "10nm",
+        "power": 9.4,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_033": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.31
+            },
+            {
+                "x": 0.25,
+                "y": 0.86,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 1.36,
+                "y": 5.75
+            },
+            {
+                "x": 4.96,
+                "y": 5.75
+            },
+            {
+                "x": 7.75,
+                "y": 4.57
+            },
+            {
+                "x": 7.75,
+                "y": 4.35
+            },
+            {
+                "x": 1.4,
+                "y": 0.25
+            },
+            {
+                "x": 7.4,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 8.7,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_034": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.84,
+                "y": 0.25,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 1.29,
+                "y": 0.25
+            },
+            {
+                "x": 3.4,
+                "y": 4.75
+            },
+            {
+                "x": 2.41,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 0.5
+            },
+            {
+                "x": 4.75,
+                "y": 0.56
+            },
+            {
+                "x": 0.25,
+                "y": 2.9
+            },
+            {
+                "x": 0.25,
+                "y": 2.61
+            }
+        ],
+        "technology": "12nm",
+        "power": 8.2,
+        "relay": true,
+        "internal_latency": 4,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_035": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.09,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 6.7,
+                "fraction_bump_area": 0.3
+            },
+            {
+                "x": 5.3,
+                "y": 7.75
+            },
+            {
+                "x": 9.75,
+                "y": 4.19
+            }
+        ],
+        "technology": "12nm",
+        "power": 23.7,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen5",
+            "protocols": [
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_036": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 6.1
+            },
+            {
+                "x": 7.91,
+                "y": 7.75
+            },
+            {
+                "x": 2.09,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 6.36
+            }
+        ],
+        "technology": "12nm",
+        "power": 19.7,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_037": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.1,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 0.51
+            },
+            {
+                "x": 7.75,
+                "y": 1.36
+            },
+            {
+                "x": 5.12,
+                "y": 0.25,
+                "fraction_bump_area": 0.12
+            }
+        ],
+        "technology": "12nm",
+        "power": 11.7,
+        "relay": true,
+        "internal_latency": 6,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_038": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.36,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 0.9
+            },
+            {
+                "x": 9.75,
+                "y": 3.2,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 6.75,
+                "y": 7.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 24.7,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 4,
+            "speed": "Gen4",
+            "protocols": [
+                "Ethernet",
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_039": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.37
+            },
+            {
+                "x": 0.25,
+                "y": 3.43
+            },
+            {
+                "x": 7.79,
+                "y": 7.75,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 2.42,
+                "y": 7.75,
+                "fraction_bump_area": 0.39
+            },
+            {
+                "x": 9.75,
+                "y": 4.23
+            },
+            {
+                "x": 9.75,
+                "y": 3.93
+            },
+            {
+                "x": 1.6,
+                "y": 0.25,
+                "fraction_bump_area": 0.3
+            },
+            {
+                "x": 6.55,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 8.2,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_040": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.25,
+                "y": 0.25
+            },
+            {
+                "x": 4.19,
+                "y": 0.25,
+                "fraction_bump_area": 0.21
+            },
+            {
+                "x": 5.75,
+                "y": 2.13,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 5.75,
+                "y": 3.95
+            },
+            {
+                "x": 2.43,
+                "y": 7.75
+            },
+            {
+                "x": 4.3,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 5.82
+            },
+            {
+                "x": 0.25,
+                "y": 0.7
+            }
+        ],
+        "technology": "7nm",
+        "power": 7.5,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_041": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.97
+            },
+            {
+                "x": 3.57,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 0.95
+            },
+            {
+                "x": 1.74,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 10.9,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen6",
+            "protocols": [
+                "SATA",
+                "USB3",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_042": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 6.17,
+                "fraction_bump_area": 0.24
+            },
+            {
+                "x": 9.06,
+                "y": 0.25,
+                "fraction_bump_area": 0.21
+            },
+            {
+                "x": 2.87,
+                "y": 7.75,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 9.75,
+                "y": 1.55
+            }
+        ],
+        "technology": "7nm",
+        "power": 14.3,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "100G",
+            "protocols": [
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_043": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 3.04
+            },
+            {
+                "x": 7.75,
+                "y": 1.0
+            },
+            {
+                "x": 0.25,
+                "y": 3.31,
+                "fraction_bump_area": 0.12
+            },
+            {
+                "x": 0.25,
+                "y": 5.26
+            },
+            {
+                "x": 4.07,
+                "y": 5.75,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 1.81,
+                "y": 5.75
+            },
+            {
+                "x": 7.46,
+                "y": 0.25
+            },
+            {
+                "x": 1.72,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 14.2,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 4,
+            "speed": "Gen6",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_044": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.32,
+                "y": 0.25
+            },
+            {
+                "x": 3.38,
+                "y": 0.25,
+                "fraction_bump_area": 0.21
+            },
+            {
+                "x": 7.21,
+                "y": 5.75
+            },
+            {
+                "x": 6.37,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.39
+            },
+            {
+                "x": 0.25,
+                "y": 5.43
+            },
+            {
+                "x": 7.75,
+                "y": 1.67
+            },
+            {
+                "x": 7.75,
+                "y": 1.23
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.5,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "1G",
+            "protocols": [
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_045": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.27
+            },
+            {
+                "x": 7.75,
+                "y": 1.37
+            },
+            {
+                "x": 6.18,
+                "y": 0.25
+            },
+            {
+                "x": 2.09,
+                "y": 5.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 24.9,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_046": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.52,
+                "fraction_bump_area": 0.36
+            },
+            {
+                "x": 0.25,
+                "y": 3.15
+            },
+            {
+                "x": 3.33,
+                "y": 5.75
+            },
+            {
+                "x": 5.19,
+                "y": 5.75
+            },
+            {
+                "x": 2.76,
+                "y": 0.25
+            },
+            {
+                "x": 1.71,
+                "y": 0.25,
+                "fraction_bump_area": 0.15
+            },
+            {
+                "x": 7.75,
+                "y": 2.77
+            },
+            {
+                "x": 7.75,
+                "y": 0.88,
+                "fraction_bump_area": 0.16
+            }
+        ],
+        "technology": "12nm",
+        "power": 23.9,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_047": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.81,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 5.79
+            },
+            {
+                "x": 2.32,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 5.54
+            }
+        ],
+        "technology": "12nm",
+        "power": 20.6,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen4",
+            "protocols": [
+                "SATA",
+                "USB3",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_048": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 2.42
+            },
+            {
+                "x": 4.75,
+                "y": 1.5
+            },
+            {
+                "x": 0.25,
+                "y": 0.55,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 0.25,
+                "y": 1.06
+            },
+            {
+                "x": 2.9,
+                "y": 4.75
+            },
+            {
+                "x": 2.32,
+                "y": 4.75
+            },
+            {
+                "x": 1.56,
+                "y": 0.25
+            },
+            {
+                "x": 4.27,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 21.8,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen5",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_049": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.96
+            },
+            {
+                "x": 2.51,
+                "y": 5.75
+            },
+            {
+                "x": 7.75,
+                "y": 2.18
+            },
+            {
+                "x": 4.18,
+                "y": 0.25,
+                "fraction_bump_area": 0.26
+            }
+        ],
+        "technology": "7nm",
+        "power": 16.1,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen4",
+            "protocols": [
+                "Ethernet",
+                "SATA",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_050": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 0.64
+            },
+            {
+                "x": 7.75,
+                "y": 1.11,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 1.48,
+                "y": 0.25
+            },
+            {
+                "x": 5.17,
+                "y": 0.25
+            },
+            {
+                "x": 4.81,
+                "y": 5.75
+            },
+            {
+                "x": 4.07,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.69,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 0.25,
+                "y": 2.89,
+                "fraction_bump_area": 0.15
+            }
+        ],
+        "technology": "12nm",
+        "power": 16.4,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_051": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.87,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 6.85
+            },
+            {
+                "x": 5.62,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 6.56,
+                "fraction_bump_area": 0.1
+            }
+        ],
+        "technology": "7nm",
+        "power": 11.7,
+        "relay": true,
+        "internal_latency": 6,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_052": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 4.27
+            },
+            {
+                "x": 0.25,
+                "y": 5.68
+            },
+            {
+                "x": 1.41,
+                "y": 7.75,
+                "fraction_bump_area": 0.36
+            },
+            {
+                "x": 3.1,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 22.8,
+        "relay": true,
+        "internal_latency": 9,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_053": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.4,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.2
+            },
+            {
+                "x": 4.75,
+                "y": 4.48
+            },
+            {
+                "x": 3.37,
+                "y": 0.25,
+                "fraction_bump_area": 0.15
+            }
+        ],
+        "technology": "12nm",
+        "power": 14.9,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_054": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.97,
+                "fraction_bump_area": 0.28
+            },
+            {
+                "x": 2.16,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 0.68,
+                "fraction_bump_area": 0.18
+            },
+            {
+                "x": 1.84,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 4.0,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen5",
+            "protocols": [
+                "USB3",
+                "PCIe",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_055": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 6.69
+            },
+            {
+                "x": 5.75,
+                "y": 6.1
+            },
+            {
+                "x": 1.98,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 22.3,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_056": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.15,
+                "y": 7.75,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 5.49,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 6.31
+            },
+            {
+                "x": 5.75,
+                "y": 6.36,
+                "fraction_bump_area": 0.2
+            }
+        ],
+        "technology": "12nm",
+        "power": 7.1,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_057": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.54,
+                "y": 0.25
+            },
+            {
+                "x": 0.94,
+                "y": 7.75,
+                "fraction_bump_area": 0.36
+            },
+            {
+                "x": 0.25,
+                "y": 1.93,
+                "fraction_bump_area": 0.38
+            }
+        ],
+        "technology": "10nm",
+        "power": 6.3,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_058": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.17
+            },
+            {
+                "x": 5.75,
+                "y": 3.51,
+                "fraction_bump_area": 0.25
+            },
+            {
+                "x": 5.43,
+                "y": 7.75
+            },
+            {
+                "x": 1.01,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 20.5,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 2,
+            "speed": "100G",
+            "protocols": [
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_059": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.7,
+                "y": 0.25
+            },
+            {
+                "x": 1.52,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.26
+            },
+            {
+                "x": 0.25,
+                "y": 2.31
+            },
+            {
+                "x": 4.75,
+                "y": 4.15
+            },
+            {
+                "x": 4.75,
+                "y": 3.23,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 1.7,
+                "y": 4.75,
+                "fraction_bump_area": 0.1
+            },
+            {
+                "x": 0.65,
+                "y": 4.75,
+                "fraction_bump_area": 0.21
+            }
+        ],
+        "technology": "10nm",
+        "power": 23.0,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "100G",
+            "protocols": [
+                "SATA",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_060": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.28,
+                "fraction_bump_area": 0.4
+            },
+            {
+                "x": 4.75,
+                "y": 3.31,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 1.84,
+                "y": 0.25
+            },
+            {
+                "x": 1.23,
+                "y": 4.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 17.7,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "Ethernet",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_061": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.83,
+                "y": 7.75
+            },
+            {
+                "x": 5.42,
+                "y": 7.75,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 5.75,
+                "y": 5.07
+            },
+            {
+                "x": 5.75,
+                "y": 5.13,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 0.25,
+                "y": 0.59,
+                "fraction_bump_area": 0.29
+            },
+            {
+                "x": 0.25,
+                "y": 5.57
+            },
+            {
+                "x": 2.03,
+                "y": 0.25
+            },
+            {
+                "x": 4.2,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 15.2,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_062": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 0.86,
+                "fraction_bump_area": 0.4
+            },
+            {
+                "x": 0.25,
+                "y": 2.92,
+                "fraction_bump_area": 0.14
+            },
+            {
+                "x": 3.5,
+                "y": 0.25
+            },
+            {
+                "x": 0.51,
+                "y": 4.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 18.9,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen5",
+            "protocols": [
+                "Ethernet",
+                "SATA",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_063": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.14
+            },
+            {
+                "x": 0.25,
+                "y": 4.81
+            },
+            {
+                "x": 4.33,
+                "y": 7.75
+            },
+            {
+                "x": 4.18,
+                "y": 7.75,
+                "fraction_bump_area": 0.16
+            },
+            {
+                "x": 5.75,
+                "y": 5.0
+            },
+            {
+                "x": 5.75,
+                "y": 1.43
+            },
+            {
+                "x": 3.36,
+                "y": 0.25
+            },
+            {
+                "x": 0.95,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 15.9,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "SATA",
+                "PCIe",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_064": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.14
+            },
+            {
+                "x": 7.75,
+                "y": 5.23
+            },
+            {
+                "x": 6.62,
+                "y": 0.25
+            },
+            {
+                "x": 5.9,
+                "y": 5.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 13.5,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "1G",
+            "protocols": [
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_065": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.17,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.1,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 2.96,
+                "y": 7.75,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 0.25,
+                "y": 7.12,
+                "fraction_bump_area": 0.16
+            }
+        ],
+        "technology": "10nm",
+        "power": 24.6,
+        "relay": true,
+        "internal_latency": 6,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_066": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.1,
+                "y": 7.75
+            },
+            {
+                "x": 9.75,
+                "y": 1.22
+            },
+            {
+                "x": 5.86,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.83
+            }
+        ],
+        "technology": "7nm",
+        "power": 21.3,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_067": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.49,
+                "y": 0.25
+            },
+            {
+                "x": 4.75,
+                "y": 1.67
+            },
+            {
+                "x": 0.25,
+                "y": 2.78
+            },
+            {
+                "x": 0.9,
+                "y": 4.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.4,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_068": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.97
+            },
+            {
+                "x": 3.49,
+                "y": 0.25
+            },
+            {
+                "x": 0.69,
+                "y": 5.75
+            },
+            {
+                "x": 7.75,
+                "y": 2.49,
+                "fraction_bump_area": 0.17
+            }
+        ],
+        "technology": "7nm",
+        "power": 5.0,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen5",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_069": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.88
+            },
+            {
+                "x": 3.18,
+                "y": 0.25
+            },
+            {
+                "x": 7.75,
+                "y": 3.81
+            }
+        ],
+        "technology": "10nm",
+        "power": 13.3,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "10G",
+            "protocols": [
+                "USB3",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_070": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.77,
+                "y": 4.75
+            },
+            {
+                "x": 2.26,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.21
+            },
+            {
+                "x": 0.25,
+                "y": 1.17
+            },
+            {
+                "x": 4.75,
+                "y": 3.65,
+                "fraction_bump_area": 0.1
+            },
+            {
+                "x": 4.75,
+                "y": 3.82
+            },
+            {
+                "x": 0.88,
+                "y": 0.25
+            },
+            {
+                "x": 3.55,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 20.6,
+        "relay": true,
+        "internal_latency": 4,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 2,
+            "speed": "100G",
+            "protocols": [
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_071": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 1.28
+            },
+            {
+                "x": 4.79,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.8,
+                "fraction_bump_area": 0.4
+            },
+            {
+                "x": 5.94,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 11.2,
+        "relay": true,
+        "internal_latency": 4,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_072": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 7.41
+            },
+            {
+                "x": 0.25,
+                "y": 6.09
+            },
+            {
+                "x": 2.7,
+                "y": 7.75
+            },
+            {
+                "x": 5.48,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 6.7,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_073": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.19,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 3.11
+            },
+            {
+                "x": 5.75,
+                "y": 1.43
+            },
+            {
+                "x": 5.19,
+                "y": 7.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.5,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "1G",
+            "protocols": [
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_074": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.3
+            },
+            {
+                "x": 4.75,
+                "y": 0.56
+            },
+            {
+                "x": 3.62,
+                "y": 4.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 20.3,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_075": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.55,
+                "y": 0.25
+            },
+            {
+                "x": 3.34,
+                "y": 5.75,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 0.25,
+                "y": 4.04,
+                "fraction_bump_area": 0.31
+            }
+        ],
+        "technology": "10nm",
+        "power": 10.8,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 4,
+            "speed": "Gen6",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_076": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 5.53
+            },
+            {
+                "x": 1.91,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 2.47
+            },
+            {
+                "x": 3.87,
+                "y": 0.25,
+                "fraction_bump_area": 0.19
+            }
+        ],
+        "technology": "10nm",
+        "power": 14.2,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen5",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_077": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 2.69
+            },
+            {
+                "x": 3.91,
+                "y": 7.75
+            },
+            {
+                "x": 4.44,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 5.42
+            }
+        ],
+        "technology": "12nm",
+        "power": 3.5,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen5",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_078": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 3.57
+            },
+            {
+                "x": 2.45,
+                "y": 7.75
+            },
+            {
+                "x": 2.2,
+                "y": 0.25,
+                "fraction_bump_area": 0.3
+            }
+        ],
+        "technology": "12nm",
+        "power": 14.2,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_079": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 3.25
+            },
+            {
+                "x": 1.24,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 3.73
+            },
+            {
+                "x": 4.22,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 5.7,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_080": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.6,
+                "y": 7.75
+            },
+            {
+                "x": 0.25,
+                "y": 0.89
+            },
+            {
+                "x": 4.29,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 6.13
+            }
+        ],
+        "technology": "10nm",
+        "power": 18.1,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "100G",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_081": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 2.81
+            },
+            {
+                "x": 4.69,
+                "y": 7.75,
+                "fraction_bump_area": 0.27
+            },
+            {
+                "x": 5.75,
+                "y": 4.0
+            },
+            {
+                "x": 5.11,
+                "y": 0.25,
+                "fraction_bump_area": 0.3
+            }
+        ],
+        "technology": "12nm",
+        "power": 3.5,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_082": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.69,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 6.16
+            },
+            {
+                "x": 0.25,
+                "y": 0.95
+            },
+            {
+                "x": 1.55,
+                "y": 7.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 11.3,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_083": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 5.12
+            },
+            {
+                "x": 0.81,
+                "y": 7.75
+            },
+            {
+                "x": 0.72,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 6.14,
+                "fraction_bump_area": 0.37
+            }
+        ],
+        "technology": "10nm",
+        "power": 5.2,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_084": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.53,
+                "fraction_bump_area": 0.14
+            },
+            {
+                "x": 7.75,
+                "y": 5.27
+            },
+            {
+                "x": 7.39,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 15.1,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_085": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.15,
+                "y": 4.75,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 2.32,
+                "y": 0.25,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 4.75,
+                "y": 4.03
+            },
+            {
+                "x": 0.25,
+                "y": 2.53,
+                "fraction_bump_area": 0.16
+            }
+        ],
+        "technology": "10nm",
+        "power": 23.9,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen5",
+            "protocols": [
+                "Ethernet",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_086": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.85,
+                "y": 0.25
+            },
+            {
+                "x": 0.76,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.28
+            }
+        ],
+        "technology": "12nm",
+        "power": 24.5,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "10G",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_087": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 0.87,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 1.99,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 2.85,
+                "fraction_bump_area": 0.2
+            }
+        ],
+        "technology": "7nm",
+        "power": 5.9,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 4,
+            "speed": "Gen4",
+            "protocols": [
+                "PCIe",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_088": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 6.79,
+                "fraction_bump_area": 0.24
+            },
+            {
+                "x": 0.25,
+                "y": 1.02
+            },
+            {
+                "x": 3.12,
+                "y": 0.25
+            },
+            {
+                "x": 5.38,
+                "y": 0.25,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 0.71,
+                "y": 7.75
+            },
+            {
+                "x": 2.43,
+                "y": 7.75
+            },
+            {
+                "x": 5.75,
+                "y": 2.07
+            },
+            {
+                "x": 5.75,
+                "y": 1.41,
+                "fraction_bump_area": 0.26
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.0,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 4,
+            "speed": "Gen5",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_089": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.46,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 2.23,
+                "y": 0.25
+            },
+            {
+                "x": 2.15,
+                "y": 4.75,
+                "fraction_bump_area": 0.24
+            },
+            {
+                "x": 4.75,
+                "y": 1.16,
+                "fraction_bump_area": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 20.5,
+        "relay": true,
+        "internal_latency": 2,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen6",
+            "protocols": [
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_090": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 2.73,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 7.75,
+                "y": 4.05
+            },
+            {
+                "x": 0.86,
+                "y": 0.25,
+                "fraction_bump_area": 0.21
+            },
+            {
+                "x": 2.09,
+                "y": 0.25,
+                "fraction_bump_area": 0.13
+            },
+            {
+                "x": 0.52,
+                "y": 5.75
+            },
+            {
+                "x": 4.3,
+                "y": 5.75
+            },
+            {
+                "x": 0.25,
+                "y": 4.86
+            },
+            {
+                "x": 0.25,
+                "y": 2.64
+            }
+        ],
+        "technology": "12nm",
+        "power": 19.2,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_091": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.22,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 4.32
+            },
+            {
+                "x": 0.25,
+                "y": 5.38
+            },
+            {
+                "x": 0.89,
+                "y": 7.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 14.5,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen5",
+            "protocols": [
+                "USB3",
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_092": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.55
+            },
+            {
+                "x": 3.6,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 3.23
+            }
+        ],
+        "technology": "10nm",
+        "power": 13.8,
+        "relay": false,
+        "internal_latency": 4,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_093": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.79,
+                "y": 5.75
+            },
+            {
+                "x": 7.14,
+                "y": 0.25,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 7.75,
+                "y": 1.21
+            },
+            {
+                "x": 0.25,
+                "y": 2.71
+            }
+        ],
+        "technology": "12nm",
+        "power": 15.3,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 2,
+            "speed": "100G",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_094": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.58,
+                "y": 4.75,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 1.24,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.87,
+                "fraction_bump_area": 0.35
+            },
+            {
+                "x": 0.25,
+                "y": 3.59
+            },
+            {
+                "x": 4.75,
+                "y": 2.72
+            },
+            {
+                "x": 4.75,
+                "y": 2.66,
+                "fraction_bump_area": 0.33
+            },
+            {
+                "x": 2.99,
+                "y": 0.25
+            },
+            {
+                "x": 4.4,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 8.1,
+        "relay": false,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "SATA",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_095": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.11,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.12
+            },
+            {
+                "x": 5.06,
+                "y": 7.75
+            },
+            {
+                "x": 5.75,
+                "y": 5.11
+            }
+        ],
+        "technology": "7nm",
+        "power": 20.1,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_096": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 4.56,
+                "fraction_bump_area": 0.17
+            },
+            {
+                "x": 3.19,
+                "y": 7.75
+            },
+            {
+                "x": 5.75,
+                "y": 1.18
+            },
+            {
+                "x": 3.18,
+                "y": 0.25
+            }
+        ],
+        "technology": "12nm",
+        "power": 13.8,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "100G",
+            "protocols": [
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_097": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.25,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 4.25,
+                "fraction_bump_area": 0.23
+            },
+            {
+                "x": 0.25,
+                "y": 2.93
+            },
+            {
+                "x": 3.64,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.7,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_098": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.68,
+                "y": 0.25
+            },
+            {
+                "x": 1.42,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 1.77
+            },
+            {
+                "x": 0.25,
+                "y": 0.8
+            }
+        ],
+        "technology": "12nm",
+        "power": 9.8,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "USB3",
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_099": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.62,
+                "y": 0.25,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 4.75,
+                "y": 1.74,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 2.66,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.88
+            }
+        ],
+        "technology": "10nm",
+        "power": 19.5,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 16,
+            "speed": "Gen6",
+            "protocols": [
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_100": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.68,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.54
+            },
+            {
+                "x": 8.52,
+                "y": 7.75
+            },
+            {
+                "x": 9.75,
+                "y": 5.6
+            }
+        ],
+        "technology": "12nm",
+        "power": 6.1,
+        "relay": false,
+        "internal_latency": 3,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "100G",
+            "protocols": [
+                "SATA",
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_101": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 2.72
+            },
+            {
+                "x": 1.85,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 3.28,
+                "fraction_bump_area": 0.34
+            },
+            {
+                "x": 3.3,
+                "y": 4.75
+            }
+        ],
+        "technology": "10nm",
+        "power": 8.0,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen5",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_102": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.14,
+                "y": 0.25
+            },
+            {
+                "x": 2.01,
+                "y": 4.75
+            },
+            {
+                "x": 0.25,
+                "y": 1.27
+            },
+            {
+                "x": 4.75,
+                "y": 0.95,
+                "fraction_bump_area": 0.24
+            }
+        ],
+        "technology": "7nm",
+        "power": 7.6,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "100G",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_103": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 6.34,
+                "y": 5.75
+            },
+            {
+                "x": 3.21,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.54
+            },
+            {
+                "x": 7.75,
+                "y": 2.4
+            }
+        ],
+        "technology": "12nm",
+        "power": 6.7,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_104": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 1.76
+            },
+            {
+                "x": 5.09,
+                "y": 5.75
+            },
+            {
+                "x": 7.46,
+                "y": 0.25
+            },
+            {
+                "x": 7.75,
+                "y": 4.91,
+                "fraction_bump_area": 0.26
+            }
+        ],
+        "technology": "10nm",
+        "power": 8.6,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "1G",
+            "protocols": [
+                "SATA",
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_105": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 3.09
+            },
+            {
+                "x": 0.25,
+                "y": 4.99
+            },
+            {
+                "x": 4.46,
+                "y": 7.75
+            },
+            {
+                "x": 5.18,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 10.0,
+        "relay": false,
+        "internal_latency": 9,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_106": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.25,
+                "y": 6.71
+            },
+            {
+                "x": 0.25,
+                "y": 4.4
+            },
+            {
+                "x": 7.87,
+                "y": 7.75
+            },
+            {
+                "x": 2.68,
+                "y": 7.75
+            },
+            {
+                "x": 0.77,
+                "y": 0.25
+            },
+            {
+                "x": 3.85,
+                "y": 0.25
+            },
+            {
+                "x": 9.75,
+                "y": 3.59
+            },
+            {
+                "x": 9.75,
+                "y": 5.09
+            }
+        ],
+        "technology": "12nm",
+        "power": 23.5,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "Ethernet"
+            ]
+        }
+    },
+    "io_chiplet_107": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 1.91,
+                "fraction_bump_area": 0.1
+            },
+            {
+                "x": 0.25,
+                "y": 3.24
+            },
+            {
+                "x": 2.54,
+                "y": 0.25
+            },
+            {
+                "x": 1.89,
+                "y": 4.75
+            }
+        ],
+        "technology": "7nm",
+        "power": 23.3,
+        "relay": true,
+        "internal_latency": 7,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_108": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.61,
+                "y": 7.75
+            },
+            {
+                "x": 2.55,
+                "y": 0.25,
+                "fraction_bump_area": 0.38
+            },
+            {
+                "x": 0.25,
+                "y": 4.96
+            },
+            {
+                "x": 5.75,
+                "y": 2.18,
+                "fraction_bump_area": 0.17
+            }
+        ],
+        "technology": "10nm",
+        "power": 4.4,
+        "relay": true,
+        "internal_latency": 8,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_109": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 7.0
+            },
+            {
+                "x": 1.08,
+                "y": 7.75
+            },
+            {
+                "x": 1.31,
+                "y": 0.25,
+                "fraction_bump_area": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 6.93,
+                "fraction_bump_area": 0.3
+            }
+        ],
+        "technology": "12nm",
+        "power": 12.7,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 2,
+            "speed": "100G",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_110": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 0.7
+            },
+            {
+                "x": 0.54,
+                "y": 4.75
+            },
+            {
+                "x": 1.94,
+                "y": 0.25,
+                "fraction_bump_area": 0.2
+            },
+            {
+                "x": 0.25,
+                "y": 1.06
+            }
+        ],
+        "technology": "12nm",
+        "power": 24.3,
+        "relay": true,
+        "internal_latency": 6,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_111": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 2.64,
+                "y": 0.25
+            },
+            {
+                "x": 4.75,
+                "y": 3.83
+            },
+            {
+                "x": 0.25,
+                "y": 2.72
+            },
+            {
+                "x": 3.29,
+                "y": 4.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 20.9,
+        "relay": false,
+        "internal_latency": 7,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_112": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 3.01,
+                "fraction_bump_area": 0.31
+            },
+            {
+                "x": 3.14,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 4.23,
+                "fraction_bump_area": 0.3
+            }
+        ],
+        "technology": "7nm",
+        "power": 21.9,
+        "relay": true,
+        "internal_latency": 10,
+        "unit_count": 1,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 1,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_113": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 3.35,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 2.52
+            },
+            {
+                "x": 2.28,
+                "y": 4.75
+            },
+            {
+                "x": 4.75,
+                "y": 2.3,
+                "fraction_bump_area": 0.31
+            }
+        ],
+        "technology": "7nm",
+        "power": 20.7,
+        "relay": false,
+        "internal_latency": 8,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_114": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 0.59,
+                "y": 7.75,
+                "fraction_bump_area": 0.37
+            },
+            {
+                "x": 0.25,
+                "y": 5.43
+            },
+            {
+                "x": 5.75,
+                "y": 2.21
+            },
+            {
+                "x": 2.37,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 8.1,
+        "relay": false,
+        "internal_latency": 2,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 1,
+            "speed": "1G",
+            "protocols": [
+                "Ethernet",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_115": {
+        "dimensions": {
+            "x": 10,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 9.75,
+                "y": 7.38
+            },
+            {
+                "x": 0.25,
+                "y": 4.61
+            },
+            {
+                "x": 3.91,
+                "y": 0.25
+            },
+            {
+                "x": 8.62,
+                "y": 7.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 22.4,
+        "relay": false,
+        "internal_latency": 6,
+        "unit_count": 4,
+        "specifications": {
+            "io_type": "Storage",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_116": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 3.12
+            },
+            {
+                "x": 3.45,
+                "y": 4.75
+            },
+            {
+                "x": 0.62,
+                "y": 0.25
+            }
+        ],
+        "technology": "7nm",
+        "power": 15.4,
+        "relay": true,
+        "internal_latency": 4,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Display",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "PCIe"
+            ]
+        }
+    },
+    "io_chiplet_117": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 1.11,
+                "y": 0.25
+            },
+            {
+                "x": 5.75,
+                "y": 2.34
+            },
+            {
+                "x": 4.45,
+                "y": 7.75,
+                "fraction_bump_area": 0.26
+            },
+            {
+                "x": 0.25,
+                "y": 0.85
+            }
+        ],
+        "technology": "12nm",
+        "power": 24.2,
+        "relay": true,
+        "internal_latency": 3,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "PCIe",
+            "lanes": 8,
+            "speed": "Gen4",
+            "protocols": [
+                "Ethernet",
+                "USB3",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_118": {
+        "dimensions": {
+            "x": 8,
+            "y": 6
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 7.75,
+                "y": 4.17
+            },
+            {
+                "x": 0.25,
+                "y": 5.43
+            },
+            {
+                "x": 5.02,
+                "y": 0.25
+            }
+        ],
+        "technology": "10nm",
+        "power": 16.1,
+        "relay": true,
+        "internal_latency": 2,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "Network",
+            "lanes": 4,
+            "speed": "25G",
+            "protocols": [
+                "USB3"
+            ]
+        }
+    },
+    "io_chiplet_119": {
+        "dimensions": {
+            "x": 5,
+            "y": 5
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 4.75,
+                "y": 0.61
+            },
+            {
+                "x": 3.92,
+                "y": 0.25
+            },
+            {
+                "x": 1.62,
+                "y": 4.75,
+                "fraction_bump_area": 0.19
+            },
+            {
+                "x": 0.25,
+                "y": 0.56
+            }
+        ],
+        "technology": "12nm",
+        "power": 3.2,
+        "relay": false,
+        "internal_latency": 10,
+        "unit_count": 2,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 4,
+            "speed": "Standard",
+            "protocols": [
+                "Ethernet",
+                "PCIe",
+                "SATA"
+            ]
+        }
+    },
+    "io_chiplet_120": {
+        "dimensions": {
+            "x": 6,
+            "y": 8
+        },
+        "type": "io",
+        "phys": [
+            {
+                "x": 5.75,
+                "y": 2.33
+            },
+            {
+                "x": 1.57,
+                "y": 0.25
+            },
+            {
+                "x": 0.25,
+                "y": 5.87,
+                "fraction_bump_area": 0.22
+            },
+            {
+                "x": 5.12,
+                "y": 7.75
+            }
+        ],
+        "technology": "12nm",
+        "power": 12.6,
+        "relay": true,
+        "internal_latency": 5,
+        "unit_count": 3,
+        "specifications": {
+            "io_type": "USB",
+            "lanes": 2,
+            "speed": "Standard",
+            "protocols": [
+                "SATA"
+            ]
+        }
+    }
+}
