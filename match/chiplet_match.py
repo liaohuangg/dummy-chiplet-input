@@ -317,6 +317,161 @@ class ChipletMatcher:
             match_score=match_score
         )
 
+def save_selected_chiplets(selected_chiplets: List[Dict], match_results_dir: str = "../match_results"):
+    """仅保存选中的芯粒到JSON文件"""
+    import os
+    from datetime import datetime
+    
+    # 确保目录存在
+    os.makedirs(match_results_dir, exist_ok=True)
+    
+    # 生成文件名（包含时间戳）
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"genetic_algorithm_best_chiplets_{timestamp}.json"
+    filepath = os.path.join(match_results_dir, filename)
+    
+    # 保存选中的芯粒信息
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(selected_chiplets, f, indent=2, ensure_ascii=False)
+    
+    print(f"   已保存最佳芯粒选择到: {filepath}")
+    return filepath
+
+def json_to_sim1(json_filepath: str, output_dir: str = "../match_results"):
+    """将JSON芯粒文件转换为sim1 XML格式"""
+    import os
+    from datetime import datetime
+    
+    # 读取JSON文件
+    with open(json_filepath, 'r', encoding='utf-8') as f:
+        chiplets = json.load(f)
+    
+    # 确保输出目录存在
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # 生成输出文件名
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_filename = f"chiplets_circuit_{timestamp}.sim1"
+    output_filepath = os.path.join(output_dir, output_filename)
+    
+    # 构建XML内容
+    xml_content = ['<circuit version="1.2.0-RC1" rev="250708" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >\n']
+    
+    # 为每个芯粒生成XML item
+    chiplet_counters = {"cpu": 1, "gpu": 1, "memory": 1, "io": 1, "noc": 1}
+    position_x = 200  # 起始x位置
+    position_y = -50  # 起始y位置
+    
+    for chiplet in chiplets:
+        if not isinstance(chiplet, dict):
+            continue
+            
+        chiplet_type = chiplet.get("type", "").lower()
+        if not chiplet_type:
+            continue
+        
+        # 生成CircId
+        if chiplet_type in ["cpu", "gpu"]:
+            circ_id = f"{chiplet_type.upper()}Chiplet-{chiplet_counters[chiplet_type]}"
+        else:
+            circ_id = f"ComputeChiplet-{chiplet_counters.get(chiplet_type, 1)}"
+        
+        # 更新计数器
+        if chiplet_type in chiplet_counters:
+            chiplet_counters[chiplet_type] += 1
+        
+        # 映射属性
+        area = calculate_area_from_chiplet(chiplet)
+        power = chiplet.get("power", 10.0)
+        process = chiplet.get("technology", "7nm")
+        latency = chiplet.get("internal_latency", 1) * 1000000000.0  # 转换为ns
+        
+        # 构建item标签
+        item_attrs = {
+            'itemtype': 'ComputeChiplet',
+            'CircId': circ_id,
+            'mainComp': 'false',
+            'Show_id': 'false',
+            'Show_Val': 'false',
+            'Pos': f"{position_x}.0,{position_y}.0",
+            'rotation': '0.0',
+            'hflip': '1.0',
+            'vflip': '1.0',
+            'label': circ_id,
+            'idLabPos': '-16.0,-24.0',
+            'labelrot': '0.0',
+            'valLabPos': '-16.0,20.0',
+            'valLabRot': '0.0',
+            'boardPos': '-1000000.0,-1000000.0',
+            'circPos': '0.0,0.0',
+            'boardRot': '-1000000.0',
+            'circRot': '0.0',
+            'boardHflip': '1.0',
+            'boardVflip': '1.0',
+            'Area': f"{area:.1f} mm²",
+            'Power': f"{power:.1f} W",
+            'ChipletType': chiplet_type.upper(),
+            'Temperature': '25.0 °C',
+            'Process': process,
+            'Bandwidth': '0.008 MHz',
+            'Throughput': '0.01 MHz',
+            'Latency': f"{latency:.1f} ns",
+            'InterconnectionProtocol': 'PCIe'
+        }
+        
+        # 根据芯粒类型添加特定属性
+        if chiplet_type == "cpu":
+            cores = chiplet.get("unit_count", 4)
+            item_attrs.update({
+                'Cores': f"{cores}.0",
+                'Frequency': '3.5e-09 GHz',
+                'Cache': '1.6e-05 MB',
+                'HyperThreading': 'true',
+                'AVXSupport': 'true',
+                'TDP': f"{power * 6:.1f} W"
+            })
+        elif chiplet_type == "gpu":
+            cores = chiplet.get("unit_count", 1024)
+            item_attrs.update({
+                'Cores': f"{cores}.0",
+                'Frequency': '1.8e-09 GHz',
+                'Cache': '8e-06 MB',
+                'CUDAcores': f"{cores * 2}.0",
+                'MemorySize': '8e-09 GB',
+                'MemoryType': 'GDDR6',
+                'ComputeUnits': f"{cores // 16}.0"
+            })
+        
+        # 生成item标签
+        item_line = '<item '
+        for attr, value in item_attrs.items():
+            item_line += f'{attr}="{value}" '
+        item_line += '/>\n'
+        
+        xml_content.append(item_line)
+        
+        # 更新位置（简单的网格布局）
+        position_x += 180
+        if position_x > 1000:
+            position_x = 200
+            position_y -= 100
+    
+    xml_content.append('\n</circuit>')
+    
+    # 写入文件
+    with open(output_filepath, 'w', encoding='utf-8') as f:
+        f.writelines(xml_content)
+    
+    print(f"   已转换为sim1格式: {output_filepath}")
+    return output_filepath
+
+def calculate_area_from_chiplet(chiplet: Dict) -> float:
+    """从芯粒信息计算面积"""
+    dims = chiplet.get("dimensions", {})
+    x = dims.get("x", 10)
+    y = dims.get("y", 10)
+    return float(x * y * 1000)  # 转换为mm²
+
 def main():
     """主函数 - 演示芯粒匹配"""
     
@@ -326,9 +481,12 @@ def main():
     
     # 定义匹配需求
     requirement = MatchingRequirement(
-        chiplet_types=["cpu", "gpu", "memory", "io", "noc"],
-        min_counts={"cpu": 10, "gpu": 10, "memory": 20, "io": 10, "noc": 20},
-        max_counts={"cpu": 20, "gpu": 20, "memory": 40, "io": 50, "noc": 40},
+        # chiplet_types=["cpu", "gpu", "memory", "io", "noc"],
+        chiplet_types=["cpu", "gpu", "memory"],
+
+        min_counts={"cpu": 1, "gpu": 1, },
+        max_counts={"cpu": 12, "gpu": 12, },
+
         power_budget=1000.0,      # 500W功耗预算
         area_budget=1000.0,      # 1000平方单位面积预算
         performance_target=5000.0, # 5000性能目标
@@ -384,24 +542,34 @@ def main():
     print(f"   匹配分数: {best_greddy_score:.4f}")
 
     # 遗传算法匹配
-
+    best_ga_score = float('-inf')
+    best_ga_result = None
+    
     for i in range(n):
+        print(f"   遗传算法第 {i+1}/{n} 次运行...")
         ga_result = matcher.genetic_algorithm_matching(requirement, population_size=30, generations=50)
-        best_ga_score = 0
         if ga_result.match_score > best_ga_score:
             best_ga_score = ga_result.match_score
-            best_chiplet_num= len(ga_result.selected_chiplets)
-            best_total_power= ga_result.total_power
-            best_total_area= ga_result.total_area
-            best_performance_score= ga_result.performance_score
+            best_ga_result = ga_result
+            print(f"   发现更好的解，分数: {best_ga_score:.4f}")
                 
 
     print(f"\n 遗传算法结果:")
-    print(f"   选中芯粒数: {best_chiplet_num}")
-    print(f"   总功耗: {best_total_power:.2f}W")
-    print(f"   总面积: {best_total_area:.2f}")
-    print(f"   性能分数: {best_performance_score:.2f}")
+    print(f"   选中芯粒数: {len(best_ga_result.selected_chiplets)}")
+    print(f"   总功耗: {best_ga_result.total_power:.2f}W")
+    print(f"   总面积: {best_ga_result.total_area:.2f}")
+    print(f"   性能分数: {best_ga_result.performance_score:.2f}")
     print(f"   匹配分数: {best_ga_score:.4f}")
+    
+    # 保存遗传算法的最佳芯粒选择
+    json_filepath = save_selected_chiplets(best_ga_result.selected_chiplets)
+    
+    # 将JSON转换为sim1格式
+    sim1_filepath = json_to_sim1(json_filepath)
+    
+    print(f"\n 文件生成:")
+    print(f"   JSON文件: {json_filepath}")
+    print(f"   sim1文件: {sim1_filepath}")
 
     # 对比结果
     print(f"\n 结果对比:")

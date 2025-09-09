@@ -1,0 +1,604 @@
+[
+  {
+    "dimensions": {
+      "x": 12,
+      "y": 8
+    },
+    "type": "cpu",
+    "phys": [
+      {
+        "x": 0.25,
+        "y": 2.42
+      },
+      {
+        "x": 4.63,
+        "y": 7.75
+      },
+      {
+        "x": 3.6,
+        "y": 0.25,
+        "fraction_bump_area": 0.2
+      },
+      {
+        "x": 11.75,
+        "y": 5.71
+      }
+    ],
+    "technology": "5nm",
+    "power": 25.7,
+    "relay": true,
+    "internal_latency": 1,
+    "unit_count": 8,
+    "specifications": {
+      "core_count": 8,
+      "frequency_ghz": 4.29,
+      "cache_l3_mb": 128,
+      "architecture": "x86"
+    },
+    "name": "cpu_chiplet_066"
+  },
+  {
+    "dimensions": {
+      "x": 10,
+      "y": 10
+    },
+    "type": "cpu",
+    "phys": [
+      {
+        "x": 2.99,
+        "y": 0.25
+      },
+      {
+        "x": 0.25,
+        "y": 1.89
+      },
+      {
+        "x": 9.75,
+        "y": 9.03
+      },
+      {
+        "x": 2.23,
+        "y": 9.75,
+        "fraction_bump_area": 0.12
+      }
+    ],
+    "technology": "3nm",
+    "power": 32.0,
+    "relay": true,
+    "internal_latency": 1,
+    "unit_count": 2,
+    "specifications": {
+      "core_count": 2,
+      "frequency_ghz": 4.48,
+      "cache_l3_mb": 128,
+      "architecture": "x86"
+    },
+    "name": "cpu_chiplet_092"
+  },
+  {
+    "dimensions": {
+      "x": 8,
+      "y": 8
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 0.25,
+        "y": 1.0
+      },
+      {
+        "x": 0.25,
+        "y": 1.29
+      },
+      {
+        "x": 0.25,
+        "y": 3.32
+      },
+      {
+        "x": 6.75,
+        "y": 0.25
+      },
+      {
+        "x": 5.18,
+        "y": 0.25
+      },
+      {
+        "x": 1.9,
+        "y": 0.25
+      },
+      {
+        "x": 6.95,
+        "y": 7.75
+      },
+      {
+        "x": 3.79,
+        "y": 7.75
+      },
+      {
+        "x": 7.37,
+        "y": 7.75
+      },
+      {
+        "x": 7.75,
+        "y": 1.96
+      },
+      {
+        "x": 7.75,
+        "y": 3.27
+      },
+      {
+        "x": 7.75,
+        "y": 5.82,
+        "fraction_bump_area": 0.19
+      }
+    ],
+    "technology": "4nm",
+    "power": 310.8,
+    "relay": true,
+    "internal_latency": 2,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 513,
+      "tensor_performance_tops": 349.7,
+      "architecture": "Hopper"
+    },
+    "name": "gpu_chiplet_057"
+  },
+  {
+    "dimensions": {
+      "x": 6,
+      "y": 6
+    },
+    "type": "cpu",
+    "phys": [
+      {
+        "x": 4.86,
+        "y": 0.25,
+        "fraction_bump_area": 0.29
+      },
+      {
+        "x": 0.59,
+        "y": 0.25
+      },
+      {
+        "x": 0.25,
+        "y": 3.2,
+        "fraction_bump_area": 0.18
+      },
+      {
+        "x": 0.25,
+        "y": 3.23
+      },
+      {
+        "x": 5.75,
+        "y": 5.29,
+        "fraction_bump_area": 0.33
+      },
+      {
+        "x": 5.75,
+        "y": 0.62
+      },
+      {
+        "x": 5.18,
+        "y": 5.75
+      },
+      {
+        "x": 0.59,
+        "y": 5.75
+      }
+    ],
+    "technology": "3nm",
+    "power": 53.7,
+    "relay": true,
+    "internal_latency": 1,
+    "unit_count": 8,
+    "specifications": {
+      "core_count": 8,
+      "frequency_ghz": 2.72,
+      "cache_l3_mb": 8,
+      "architecture": "RISC-V"
+    },
+    "name": "cpu_chiplet_015"
+  },
+  {
+    "dimensions": {
+      "x": 15,
+      "y": 12
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 13.78,
+        "y": 11.75
+      },
+      {
+        "x": 0.91,
+        "y": 0.25
+      },
+      {
+        "x": 14.75,
+        "y": 2.54
+      },
+      {
+        "x": 0.25,
+        "y": 1.64
+      }
+    ],
+    "technology": "7nm",
+    "power": 99.4,
+    "relay": true,
+    "internal_latency": 3,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 468,
+      "tensor_performance_tops": 988.7,
+      "architecture": "Hopper"
+    },
+    "name": "gpu_chiplet_013"
+  },
+  {
+    "dimensions": {
+      "x": 20,
+      "y": 15
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 0.25,
+        "y": 11.52
+      },
+      {
+        "x": 0.25,
+        "y": 13.03,
+        "fraction_bump_area": 0.16
+      },
+      {
+        "x": 11.49,
+        "y": 14.75
+      },
+      {
+        "x": 3.37,
+        "y": 14.75,
+        "fraction_bump_area": 0.39
+      },
+      {
+        "x": 19.75,
+        "y": 10.5
+      },
+      {
+        "x": 19.75,
+        "y": 12.36,
+        "fraction_bump_area": 0.16
+      },
+      {
+        "x": 11.15,
+        "y": 0.25
+      },
+      {
+        "x": 6.83,
+        "y": 0.25
+      }
+    ],
+    "technology": "5nm",
+    "power": 339.6,
+    "relay": true,
+    "internal_latency": 2,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 1596,
+      "tensor_performance_tops": 441.8,
+      "architecture": "Ampere"
+    },
+    "name": "gpu_chiplet_044"
+  },
+  {
+    "dimensions": {
+      "x": 12,
+      "y": 10
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 0.59,
+        "y": 0.25
+      },
+      {
+        "x": 5.06,
+        "y": 0.25
+      },
+      {
+        "x": 3.62,
+        "y": 0.25,
+        "fraction_bump_area": 0.35
+      },
+      {
+        "x": 2.39,
+        "y": 9.75
+      },
+      {
+        "x": 2.29,
+        "y": 9.75
+      },
+      {
+        "x": 6.79,
+        "y": 9.75,
+        "fraction_bump_area": 0.26
+      },
+      {
+        "x": 11.75,
+        "y": 4.62
+      },
+      {
+        "x": 11.75,
+        "y": 1.32
+      },
+      {
+        "x": 11.75,
+        "y": 0.5
+      },
+      {
+        "x": 0.25,
+        "y": 3.27,
+        "fraction_bump_area": 0.22
+      },
+      {
+        "x": 0.25,
+        "y": 1.04
+      },
+      {
+        "x": 0.25,
+        "y": 6.67,
+        "fraction_bump_area": 0.34
+      }
+    ],
+    "technology": "5nm",
+    "power": 316.4,
+    "relay": true,
+    "internal_latency": 7,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 565,
+      "tensor_performance_tops": 455.8,
+      "architecture": "Ampere"
+    },
+    "name": "gpu_chiplet_053"
+  },
+  {
+    "dimensions": {
+      "x": 20,
+      "y": 15
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 0.25,
+        "y": 11.52
+      },
+      {
+        "x": 0.25,
+        "y": 13.03,
+        "fraction_bump_area": 0.16
+      },
+      {
+        "x": 11.49,
+        "y": 14.75
+      },
+      {
+        "x": 3.37,
+        "y": 14.75,
+        "fraction_bump_area": 0.39
+      },
+      {
+        "x": 19.75,
+        "y": 10.5
+      },
+      {
+        "x": 19.75,
+        "y": 12.36,
+        "fraction_bump_area": 0.16
+      },
+      {
+        "x": 11.15,
+        "y": 0.25
+      },
+      {
+        "x": 6.83,
+        "y": 0.25
+      }
+    ],
+    "technology": "5nm",
+    "power": 339.6,
+    "relay": true,
+    "internal_latency": 2,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 1596,
+      "tensor_performance_tops": 441.8,
+      "architecture": "Ampere"
+    },
+    "name": "gpu_chiplet_044"
+  },
+  {
+    "dimensions": {
+      "x": 8,
+      "y": 8
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 0.25,
+        "y": 1.0
+      },
+      {
+        "x": 0.25,
+        "y": 1.29
+      },
+      {
+        "x": 0.25,
+        "y": 3.32
+      },
+      {
+        "x": 6.75,
+        "y": 0.25
+      },
+      {
+        "x": 5.18,
+        "y": 0.25
+      },
+      {
+        "x": 1.9,
+        "y": 0.25
+      },
+      {
+        "x": 6.95,
+        "y": 7.75
+      },
+      {
+        "x": 3.79,
+        "y": 7.75
+      },
+      {
+        "x": 7.37,
+        "y": 7.75
+      },
+      {
+        "x": 7.75,
+        "y": 1.96
+      },
+      {
+        "x": 7.75,
+        "y": 3.27
+      },
+      {
+        "x": 7.75,
+        "y": 5.82,
+        "fraction_bump_area": 0.19
+      }
+    ],
+    "technology": "4nm",
+    "power": 310.8,
+    "relay": true,
+    "internal_latency": 2,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 513,
+      "tensor_performance_tops": 349.7,
+      "architecture": "Hopper"
+    },
+    "name": "gpu_chiplet_057"
+  },
+  {
+    "dimensions": {
+      "x": 12,
+      "y": 10
+    },
+    "type": "gpu",
+    "phys": [
+      {
+        "x": 11.75,
+        "y": 6.65
+      },
+      {
+        "x": 11.75,
+        "y": 5.78
+      },
+      {
+        "x": 11.75,
+        "y": 9.38
+      },
+      {
+        "x": 4.5,
+        "y": 9.75
+      },
+      {
+        "x": 6.34,
+        "y": 9.75
+      },
+      {
+        "x": 3.44,
+        "y": 9.75
+      },
+      {
+        "x": 0.25,
+        "y": 2.56
+      },
+      {
+        "x": 0.25,
+        "y": 6.45
+      },
+      {
+        "x": 0.25,
+        "y": 1.42
+      },
+      {
+        "x": 3.5,
+        "y": 0.25
+      },
+      {
+        "x": 1.04,
+        "y": 0.25
+      },
+      {
+        "x": 4.91,
+        "y": 0.25
+      }
+    ],
+    "technology": "5nm",
+    "power": 319.9,
+    "relay": true,
+    "internal_latency": 3,
+    "unit_count": 512,
+    "specifications": {
+      "compute_units": 512,
+      "memory_bandwidth_gbps": 652,
+      "tensor_performance_tops": 471.0,
+      "architecture": "Hopper"
+    },
+    "name": "gpu_chiplet_062"
+  },
+  {
+    "dimensions": {
+      "x": 4,
+      "y": 4
+    },
+    "type": "memory",
+    "phys": [
+      {
+        "x": 0.25,
+        "y": 3.36,
+        "fraction_bump_area": 0.13
+      },
+      {
+        "x": 0.66,
+        "y": 0.25
+      },
+      {
+        "x": 3.75,
+        "y": 2.79
+      },
+      {
+        "x": 2.63,
+        "y": 3.75,
+        "fraction_bump_area": 0.39
+      }
+    ],
+    "technology": "14nm",
+    "power": 12.8,
+    "relay": false,
+    "internal_latency": 9,
+    "unit_count": 8,
+    "specifications": {
+      "memory_type": "Cache",
+      "capacity_gb": 0.064,
+      "bandwidth_gbps": 1652,
+      "channels": 2
+    },
+    "name": "memory_chiplet_064"
+  }
+]
