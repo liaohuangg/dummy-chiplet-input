@@ -1,4 +1,5 @@
 import json
+import os
 import numpy as np
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
@@ -91,6 +92,8 @@ class ChipletMatcher:
             return unit_count * 80 / latency   # IO吞吐量相关
         elif chiplet_type == "noc":
             return unit_count * 150 / latency  # 网络性能相关
+        else:
+            return unit_count * 10 / latency   # 默认性能计算
 
 
 
